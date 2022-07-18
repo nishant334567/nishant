@@ -1,10 +1,11 @@
 .cards{
-    /* width: 300px; */
+    width: 300px;
     /* height: 400px; */
     border-radius: 5px;
     border-color: #00203FFF;
     border-style:solid;
     padding: 20px;
+    margin: 40px;
     /* background-color: #ADEFD1FF; */
 
     /* background-color: black; */
