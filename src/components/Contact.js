@@ -18,7 +18,7 @@ function Contact() {
           console.log(error.text);
       });
       e.preventDefault();
-      // e.target.reset();
+      e.target.reset();
     }
   return (
     <>
