@@ -5,7 +5,9 @@ import Pass from '../images/guitar.png';
 function About() {
   return (
     <>
+  
         <div className='about__heading'><h1>About Me !!</h1></div>
+        <hr></hr>
           <div id='about_jump' className='about'>
               <div className='profession'>
                   <div className='profession__image'>
@@ -19,7 +21,9 @@ function About() {
                       </p>
                       </div>
               </div>
-              <div className='passion'>
+
+<hr></hr>     
+         <div className='passion'>
                   <div className='passion__about'>
                       <p>
                         I started playing guitar in my college 1st year. My love for music increased

@@ -1,3 +1,10 @@
+ hr{
+    height: 5px;
+    background-color: #00203FFF;
+    width: 20%;
+    margin: auto;
+ }
+ 
  .my-desc{
     display: flex;
     /* justify-content: center; */
@@ -37,7 +44,7 @@
 .profession, .passion{
     display: flex;
     height: 350px;
-    margin: 10px 30px;
+    margin: 20px 30px;
 }
 
 .my-desc__photo {
@@ -82,7 +89,7 @@
 
 .about__heading, .contact__heading{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .about__heading h1{

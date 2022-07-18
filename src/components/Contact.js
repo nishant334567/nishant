@@ -14,9 +14,12 @@ function Contact() {
     }
   return (
     <>
+
         <div className='contact__heading'>
                 <h1>Get in touch !!</h1>
         </div>
+        <hr></hr>
+
         <div id='contact_jump' className='contact'>
             
             <div className='contact-form'>
@@ -28,6 +31,7 @@ function Contact() {
                 </form>
             </div>
         </div>
+    {/* <hr></hr> */}
     </>
   )
 }

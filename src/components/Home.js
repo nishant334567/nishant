@@ -5,6 +5,7 @@ import './Home.css'
 import axios from 'axios'
 import About from './About';
 import Contact from './Contact';
+import Project from './Project';
 
 
 function Home() {
@@ -26,12 +27,19 @@ function Home() {
                 </div>
             </div>
         </div>
-
+        {/* <hr></hr> */}
         {/* About  */}
         <About/>
 
+        {/* Projects */}
+
+        <Project/>
+
         {/* Contact Me form */}
         <Contact/>
+
+
+
     </main>
   )
 }
