@@ -6,7 +6,33 @@
 
 }
 
+.my-desc__about h2{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+    typing 4s steps(40, end) forwards,
+    blink .8s infinite;
+}
 
+.typed-out{
+    display: inline-block;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
+  
 
 .profession, .passion{
     display: flex;
@@ -64,6 +90,10 @@
     margin: auto;
     color: #00203FFF;
     text-align: center;
+    font-weight: 700;
+    letter-spacing: -1px;
+    font-size: 40px;
+    line-height: 12.2px;
 }
 
 .contact__heading h1{
@@ -78,19 +108,33 @@
     margin-bottom: 60px;
 }
 
-.my-desc__about__text{
+.about p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.my-desc__about__text p{
     /* margin: auto; */
     /* position: absolute; */
     /* transform: translate(0, -50%); */
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 @media only screen and (max-width: 900px) {
-    .my-desc, .profession, .passion{
+    .my-desc, .profession{
         display: block;
         height:auto
     }
 
-
+    .passion{
+        display: block;
+        height:auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
     .my-desc__about,.profession__about,.passion__about{
         width: 100%;
