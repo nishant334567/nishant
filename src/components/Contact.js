@@ -4,21 +4,20 @@ import axios from'axios'
 import emailjs from '@emailjs/browser';
 
 function Contact() {
-    const [title,setTitle]=useState('');
-    const [message,setMessage]=useState("");
-
-
-    function submitQuery(e){
+  
+  function submitQuery(e){
       // console.log(templateParams);
+      e.preventDefault();
       emailjs.sendForm('service_thehahp', 'template_1zdld8n', '#form','2qgl64Y8RnOw6iWRn')
       .then((result) => {
-          console.log(result.text);
-          // console.log(result)
+          document.getElementById('form').reset();
+          alert('You message was sent to Nishant successfully')
+          
       }, (error) => {
-          console.log(error.text);
+          alert(error.text, "Please Try Again!! Something bad occured")
       });
-      e.preventDefault();
-      e.target.reset();
+      
+      // e.target.reset();
     }
   return (
     <>
@@ -33,10 +32,10 @@ function Contact() {
             
             <div className='contact-form'>
                 <form id='form' className='actual-form' onSubmit={submitQuery} >
-                    <input placeholder='Title' name='title' value={title} onChange={e=>setTitle(e.target.value)}/>
-                    <input placeholder='Name' name='name'></input>
+                    <input placeholder='Title' name='title'/>
+                    <input placeholder='Name' name='name'/>
                     {/* <input type='email' placeholder='Email' name='email'></input> */}
-                    <textarea placeholder='Message' name='mess' value={message} onChange={e=>setMessage(e.target.value)}></textarea>
+                    <textarea placeholder='Message' name='mess'/>
                     <button type='submit'>Send message</button>
                     
                 </form>
