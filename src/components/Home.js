@@ -27,15 +27,11 @@ function Home() {
                 <div className='my-desc__about__text'>
                     <h1>Hi ..</h1>
                     <h2>I am Nishant Thakur</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                        exercitation ullamco laboris nisi ut aliquip ex ea 
-                        commodo consequat. Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu fugiat nulla 
-                        pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est 
-                        laborum.</p>
+                    <p>Thanks for visiting !! So you wanted to know me a bit more. To start with, let me tell 
+                        you one interesting fact. <b>It took me 2.2 decade to build this portfolio</b>.
+                        Yes you guessed it right I am an average guy 👶👶
+
+                    </p>
            
                 </div>
             </div>
@@ -50,13 +46,22 @@ function Home() {
                     <img src={Prof}/>
                 </div>
                 <div className='profession__about'>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                </div>
+                    <p>
+                        I am 2022 graduate from NIT Allahabad, specialised in Electronics and 
+                        Communication Engineering. I am working as a DIGITAL ENGINEER in Tata 
+                        Digital Pvt LTD. 
+                    </p>
+                     </div>
             </div>
             <div className='passion'>
                 <div className='passion__about'>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                </div> 
+                    <p>
+                       I started playing guitar in my college 1st year. My love for music increased
+                       and gradually I started playing other instruments, writing my own songs and 
+                       composing. I have wrote few songs and soon you'll hear those !!
+                       Do hit the like and subscribe button, whenever its out on internet. 🙃🙃 
+                    </p>
+                    </div> 
                 <div className='passion__image'>
                     <img src={Pass}/>
                 </div>
