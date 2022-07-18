@@ -1,0 +1,17 @@
+.footer{
+    background-color: #00203FFF;
+    color: white;
+    padding: 10px;
+}
+
+.footer-note p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px){
+    .footer{
+        width: 100%;
+        margin: auto;
+        padding: 20px 0px;
+    }
+}
